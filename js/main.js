@@ -1,5 +1,8 @@
-import BooksController from "./Controller/BooksController.js";
+async function fetchData(url) {
+    const data = await fetch(url);
+    const json = await data.json();
 
+    return json;
+}
 
-
-BooksController.searchByTitle('Un');
+export default fetchData;

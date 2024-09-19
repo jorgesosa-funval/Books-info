@@ -1,0 +1,10 @@
+ .card-container{
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    gap: 1rem;
+ }
+.card-img-top{
+    height: 12rem;
+}
