@@ -8,3 +8,11 @@
 .card-img-top{
     height: 12rem;
 }
+
+.list-option > li{
+    padding: .2rem 1rem;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(0, 0, 129, 0.107);
+    }
+}
